@@ -1,0 +1,21 @@
+{
+  "secretKey"   : "R2VBRK3JC7QOB4CL6B5VN5532UR7LZXE",
+  "version"     : "DEV/v1.0.1",
+  "appName"     : "Demo4U",
+  "baseURL"     : "localhost:3090",
+  "appPort"     : 3090,
+  "dbConfigs"   : {
+    "host"       : "localhost",
+    "user"       : "root",
+    "password"   : "root",
+    "database"   : "demo"
+  },
+  "emailConfig" : {
+    "username"   : "alphatest009@gmail.com",
+    "password"   : "@123Welcome",
+    "smtpServer" : "smtp.gmail.com",
+    "smtpPort"   : 465
+  },
+  "uploadPath"      : "uploads/",
+  "defProfileImage" : "defaultProfile"
+}

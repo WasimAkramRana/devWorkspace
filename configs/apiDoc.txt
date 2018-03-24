@@ -1,10 +1,10 @@
-DEMO4U DEV/v1.0.2 
+DEMO4U DEV/v1.0.1 
             
             `NODE`    : 8.x.x  
             `NPM`     : 5.x.x  
             `MySQL`   : 5.5.58  
             `Base URL`: http://localhost:3090  
-            `Version` : DEV/v1.0.2
+            `Version` : DEV/v1.0.1
 ## 1. User / Signup 
 >## `POST` */signup* 
 ### ***Prameters***
@@ -22,7 +22,7 @@ This API is execute when user want to login into tryME4U app. This API is use to
 ""
 ```
 {
-    path: "http://localhost:3090/vDEV/v1.0.2/signup",
+    path: "http://localhost:3090/vDEV/v1.0.1/signup",
     method: "POST",
     contentType: "application/json"
     data: {
@@ -68,7 +68,7 @@ This API is execute when user want to login into the app. This API is use to pro
 ""
 ```
 {
-    path: "http://localhost:3090/vDEV/v1.0.2/login",
+    path: "http://localhost:3090/vDEV/v1.0.1/login",
     method: "POST",
     contentType: "application/json"
     data: {
@@ -111,7 +111,7 @@ This API is execute when user want to refresh token for TryME4U app resource acc
 {"x-access-token":"Bearer~eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjEsImVtYWlsIjoicHJhbmF5S2F0aXlhckBtb2JpbGVwcm9ncmFtbWluZy5jb20iLCJuaWNrTmFtZSI6InByYW5heUthdGl5YXIiLCJleHAiOjE1MDk0NTUxNzIsImlhdCI6MTUwOTM2ODc3Mn0.uIo9IFXs4ciG-cQ0hOM8C6D10ZiwMRhzCEAjrDKvSPo"}
 ```
 {
-    path: "http://localhost:3090/vDEV/v1.0.2/refreshToken",
+    path: "http://localhost:3090/vDEV/v1.0.1/refreshToken",
     method: "POST",
     contentType: "application/json"
     data: {
@@ -155,7 +155,7 @@ This API is execute when user want to change his password. In this API user send
 {"x-access-token":"Bearer~eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySUQiOjEsImVtYWlsIjoicHJhbmF5S2F0aXlhckBtb2JpbGVwcm9ncmFtbWluZy5jb20iLCJuaWNrTmFtZSI6InByYW5heUthdGl5YXIiLCJleHAiOjE1MDk0NTUxNzIsImlhdCI6MTUwOTM2ODc3Mn0.uIo9IFXs4ciG-cQ0hOM8C6D10ZiwMRhzCEAjrDKvSPo"}
 ```
 {
-    path: "http://localhost:3090/vDEV/v1.0.2/changePassword",
+    path: "http://localhost:3090/vDEV/v1.0.1/changePassword",
     method: "POST",
     contentType: "application/json"
     data: {
@@ -199,7 +199,7 @@ This API is execute when user forgot his password and he want to reset his passw
 ""
 ```
 {
-    path: "http://localhost:3090/vDEV/v1.0.2/forgotPassword",
+    path: "http://localhost:3090/vDEV/v1.0.1/forgotPassword",
     method: "POST",
     contentType: "application/json"
     data: {
@@ -243,7 +243,7 @@ This API is execute when user forgot his password and he want to reset his passw
 ""
 ```
 {
-    path: "http://localhost:3090/vDEV/v1.0.2/resetPassword",
+    path: "http://localhost:3090/vDEV/v1.0.1/resetPassword",
     method: "POST",
     contentType: "application/json"
     data: {
@@ -290,7 +290,7 @@ This API is execute when user want to update their setting details
 ""
 ```
 {
-    path: "http://localhost:3090/vDEV/v1.0.2/userSettings",
+    path: "http://localhost:3090/vDEV/v1.0.1/userSettings",
     method: "PUT",
     contentType: "application/json"
     data: {
